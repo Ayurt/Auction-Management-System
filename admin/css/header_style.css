@@ -1,0 +1,38 @@
+/*this is for members index page because there is no dropdown button for logout and all, so we need to design  diffrent header for index page*/
+
+body {
+    /*for the margin of header from top left right*/
+    margin: 0;
+}
+
+img {
+    /*for the image size*/
+    max-width: 100%;
+}
+
+header {
+    /*for the header height and background color*/
+    position: relative;
+    height: 80px;
+    background: #343642;
+}
+
+header #cd-logo {
+    /*for the logo of books presents on header*/
+    float: left;
+    margin: 0 0 0 5%;
+}
+
+header #cd-logo img,
+header #cd-logo p {
+    /*for the image of books and the heading to keep in the same line*/
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header #cd-logo p {
+    /*for the heading of header which is LIBRARY MANAGEMETN SYSTEM*/
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 2.2rem;
+}

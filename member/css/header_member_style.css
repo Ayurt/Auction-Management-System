@@ -1,0 +1,93 @@
+body {
+    /*for the margin of header from top left right*/
+    margin: 0;
+}
+
+img {
+    /*for the image size*/
+    max-width: 100%;
+}
+
+header {
+    /*for the header height and background color*/
+    position: relative;
+    height: 80px;
+    background: #343642;
+}
+
+header #cd-logo {
+    /*for the logo of books presents on header*/
+    float: left;
+    margin: 0 0 0 5%;
+}
+
+header #cd-logo img,
+header #cd-logo p {
+    /*for the image of books and the heading to keep in the same line*/
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header #cd-logo p {
+    /*for the heading of header which is LIBRARY MANAGEMETN SYSTEM*/
+    font-size: 2.2rem !important;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.dropbtn {
+    /*for dropdown button image which is user icon and buttons property */
+    background: url("../img/ic_member.svg") no-repeat 8px center;
+    background-color: #d75069;
+    margin-top: 10%;
+    color: rgb(255, 255, 255);
+    min-width: 120px;
+    padding: 0 8px 0 8px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    /*for dropdown button position*/
+    position: relative;
+    display: inline-block;
+    float: right;
+    margin-right: 2%;
+}
+
+.dropdown-content {
+    /*for dropdown content property like background color size position and all*/
+    display: none;
+    right: 0;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    font-size: 1.6rem;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+    /* for dropdown content's text designing*/
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    /*for hovering when we will take curser on dropdown content*/
+    background-color: #f50202;
+}
+
+.dropdown:hover .dropdown-content {
+    /*for displaying the dropdown content of dropdown button
+    and block property will show the content in diff. diff. blocks*/
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    /*when we will take curser on the dropdown button, then button collor will be change*/
+    background-color: #c4d340;
+}

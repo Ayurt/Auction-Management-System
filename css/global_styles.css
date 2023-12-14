@@ -1,0 +1,13 @@
+/*----------Global styles----------*/
+
+html {
+    /*for the text size in project*/
+    font-size: 62.5%;
+}
+
+body {
+    /*for background color of display*/
+    font-size: 1.8rem;
+    color: #2b3e51;
+    background-color: #cac979;
+}

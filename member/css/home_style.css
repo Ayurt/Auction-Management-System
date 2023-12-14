@@ -1,0 +1,61 @@
+/*----------Form styles----------*/
+
+.cd-form {
+    /*for the full form of members home*/
+    width: 90%;
+    max-width: 1200px;
+    margin: 4em auto;
+    font-size: 1.3rem;
+    color: black;
+    font-style: bold;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.cd-form legend {
+    /*for the heading of the form and underline of the form*/
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 4rem;
+    border-bottom: 1px solid #faf7f7;
+    display: block;
+    width: 100%;
+}
+
+.cd-form input[type="submit"] {
+    /*for the submit buttons*/
+    border: none;
+    background: #484848;
+    border-radius: 0.25em;
+    padding: 16px 20px;
+    color: #ffffff;
+    font-weight: bold;
+    float: right;
+    cursor: pointer;
+    position: relative;
+}
+
+.cd-form .error-message {
+    /*when there is no error message it will not show the space of error*/
+    display: none;
+}
+
+.cd-form .error-message p {
+    /*for error message text */
+    background: #e94b35;
+    color: #ffffff;
+    font-size: 1.4rem;
+    text-align: center;
+    border-radius: 0.25em;
+    padding: 16px;
+}
+
+.cd-form .success-message p {
+    /*for success message*/
+    background: #4caf50;
+    color: #ffffff;
+    font-size: 1.4rem;
+    text-align: center;
+    border-radius: 0.25em;
+    padding: 16px;
+}

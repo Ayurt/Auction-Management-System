@@ -1,0 +1,46 @@
+#allTheThings {
+    /*for the full form of index*/
+    width: 200%;
+    max-width: 1250px;
+    text-align: right;
+    font-size: 1.0rem;
+    color: #94aab0;
+    display: block;
+    margin-right: 20px;
+}
+
+a {
+    /*for text of index page*/
+    color: #070707;
+    text-decoration: none;
+}
+
+#member {
+    /*for the same line */
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#verticalLine {
+    /*for the line between both interfaces*/
+    display: inline-block;
+    margin-left: 20px;
+    border-left: solid #343642;
+}
+
+#librarian-link {
+    /*for the margin between vertical line and admin logo*/
+    margin-left: 20px;
+}
+
+#member,
+#librarian {
+    /*for the transition time between one form to another form , here we are using this for hover */
+    transition: all .2s ease-in-out;
+}
+
+#member:hover,
+#librarian:hover {
+    /*for hover when we take the curser on images it will increase the size*/
+    transform: scale(1.0);
+}

@@ -1,0 +1,96 @@
+/*----------Form styles----------*/
+
+.cd-form {
+    /*for all the forms text*/
+    width: 90%;
+    max-width: 600px;
+    margin: 4em auto;
+    font-size: 1.3rem;
+    color: #0c0c0c;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.cd-form legend {
+    /*for the legend tag of every form  like headings are written in legend tags*/
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 5rem;
+    border-bottom: 1px solid #ecf0f1;
+    display: block;
+    width: 100%;
+}
+
+.cd-form input,
+.cd-form select {
+    /*for the text of input tags*/
+    font-size: 1.6rem;
+    color: #2b3e51;
+}
+
+.cd-form input[type="text"],
+.cd-form input[type="password"],
+.cd-form input[type="email"],
+.cd-form input[type="number"],
+.cd-form select,
+.cd-form legend {
+    /*for the width of input boxes*/
+    display: block;
+    width: 100%;
+}
+
+.cd-form input[type="text"],
+.cd-form input[type="password"],
+.cd-form input[type="email"],
+.cd-form input[type="number"],
+.cd-form select {
+    /*for the inner colour of input boxes */
+    padding: 12px;
+    border: 1px solid #cfd9db;
+    background-color: #ffffff;
+    border-radius: 0.25em;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.08);
+}
+
+.cd-form input[type="submit"] {
+    /*for every submit button of every form */
+    border: none;
+    background: #343642;
+    border-radius: none;
+    padding: 16px 20px;
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    float: left;
+    cursor: pointer;
+}
+
+.cd-form .error-message {
+    /*when there is no error message it will not show the space of error*/
+    display: none;
+}
+
+.cd-form .error-message p {
+    /*for error message text */
+    background: #e94b35;
+    color: #ffffff;
+    font-size: 1.4rem;
+    text-align: center;
+    border-radius: 0.25em;
+    padding: 16px;
+}
+
+.cd-form .success-message p {
+    /*for success message*/
+    background: green;
+    color: #ffffff;
+    font-size: 1.4rem;
+    text-align: center;
+    border-radius: 0.25em;
+    padding: 16px;
+}
+
+.cd-form div {
+    /*for the gap between every div tag*/
+    margin: 32px 0;
+}
